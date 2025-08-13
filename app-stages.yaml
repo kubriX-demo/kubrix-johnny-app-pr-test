@@ -19,6 +19,7 @@ stages:
         stages:
         - test
   - name: "prod"
+    openPr: true
     requestedFreight:
     - origin:
         kind: Warehouse
